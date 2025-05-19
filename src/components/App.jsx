@@ -1,11 +1,21 @@
 import BackgroundHeading from "./BackgroundHeading";
 import Footer from "./Footer";
+import Header from "./Header";
+import ItemlList from "./ItemlList";
+import SideBar from "./SideBar";
 
 function App() {
   return <>
   <BackgroundHeading />
 
-  <main></main>
+  <main>
+    <Header />
+    <ItemlList />
+    <SideBar />
+
+
+
+  </main>
 
   <Footer />
 
