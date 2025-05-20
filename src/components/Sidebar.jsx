@@ -1,13 +1,11 @@
-import AddItemForm from "./AddItemForm";
-import ButtonGroup from "./ButtonGroup";
+import AddItemForm from './AddItemForm';
+import ButtonGroup from './ButtonGroup';
 
-export default function Sidebar() {
+export default function Sidebar({ handleAddItem }) {
   return (
     <div className="sidebar">
-      <AddItemForm />
+      <AddItemForm handleAddItem={handleAddItem} />
       <ButtonGroup />
-
-
     </div>
-  )
+  );
 }

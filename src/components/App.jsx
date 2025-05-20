@@ -1,25 +1,38 @@
-import BackgroundHeading from "./BackgroundHeading";
-import Footer from "./Footer";
-import Header from "./Header";
-import ItemlList from "./ItemlList";
-import SideBar from "./SideBar";
+import { useState } from 'react';
+import BackgroundHeading from './BackgroundHeading';
+import Footer from './Footer';
+import Header from './Header';
+import ItemlList from './ItemlList';
+import SideBar from './SideBar';
+import { initialItems } from './lib/constans';
 
 function App() {
-  return <>
-  <BackgroundHeading />
+  const [items, setItems] = useState(initialItems);
 
-  <main>
-    <Header />
-    <ItemlList />
-    <SideBar />
+  const handleAddItem = (newItemText) => {
+    const newItem = {
+      id: new Date().getTime(),
+      name: newItemText,
+      packed: false,
+    };
 
+    const newItems = [...items, newItem];
+    setItems(newItems);
+  };
 
+  return (
+    <>
+      <BackgroundHeading />
 
-  </main>
+      <main>
+        <Header />
+        <ItemlList items={items} />
+        <SideBar handleAddItem={handleAddItem} />
+      </main>
 
-  <Footer />
-
-  </>;
+      <Footer />
+    </>
+  );
 }
 
 export default App;
