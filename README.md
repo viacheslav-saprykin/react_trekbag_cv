@@ -31,6 +31,6 @@ The project is organized with a modular structure to ensure maintainability and 
 2. **Install dependencies**
     ```sh
     npm install
-3. **Install dependencies**
+3. **Run the project**
     ```sh
     npm run dev
