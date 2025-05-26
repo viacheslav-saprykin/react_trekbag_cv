@@ -1,6 +1,6 @@
 import Select from 'react-select';
 import EmptyView from './EmptyView';
-import { useItemsContext } from './lib/hooks';
+import { useItemsContext } from '../lib/hooks';
 import { useMemo, useState } from 'react';
 
 const sortingOptions = [

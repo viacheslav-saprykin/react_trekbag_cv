@@ -1,5 +1,5 @@
 import Counter from './Counter';
-import { useItemsContext } from './lib/hooks';
+import { useItemsContext } from '../lib/hooks';
 import Logo from './Logo';
 
 

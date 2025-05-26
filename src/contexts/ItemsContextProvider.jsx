@@ -1,5 +1,6 @@
-import { createContext, useEffect, useState } from 'react';
-import { initialItems } from '../components/lib/constans';
+import { useEffect, useState } from 'react';
+import { createContext } from "react";
+import { initialItems } from '../lib/constans';
 
 export const ItemsContext = createContext();
 
