@@ -2,6 +2,11 @@
 
 TREKBAG is a simple and efficient checklist app designed to ensure you never forget anything. Add new items to the list, mark them as packed, unmark them, reset to the default list, delete all items, or remove individual ones.
 
+## 🚀 Demo  
+
+Check out the live version of TREKBAG here:  
+👉 **[TREKBAG Demo](https://your-demo-link.com)**  
+
 ## 🚀 Tech Stack  
 
 The project is built with **React** and **Vite**, offering fast build times and an efficient development experience.  
@@ -27,7 +32,7 @@ The project is organized with a modular structure to ensure maintainability and 
 ## ⚡ Getting Started  
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/viacheslav-saprykin/react_trekbag.git
+   git clone https://github.com/viacheslav-saprykin/react_trekbag_cv.git
 2. **Install dependencies**
     ```sh
     npm install
