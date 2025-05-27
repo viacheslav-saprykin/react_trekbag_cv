@@ -5,7 +5,7 @@ TREKBAG is a simple and efficient checklist app designed to ensure you never for
 ## 🚀 Demo  
 
 Check out the live version of TREKBAG here:  
-👉 **[TREKBAG Demo](https://your-demo-link.com)**  
+👉 **[Demo](https://viacheslav-saprykin.github.io/react_trekbag_cv/)**  
 
 ## 🚀 Tech Stack  
 
