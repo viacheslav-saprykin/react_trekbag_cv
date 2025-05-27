@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://viacheslav-saprykin.github.io/react_trekbag_cv/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
