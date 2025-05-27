@@ -1,6 +1,6 @@
 # TREKBAG 🏕️  
 
-TREKBAG is a simple and efficient checklist app designed to ensure you never forget anything. Add new items to the list, mark them as packed, unmark them, reset to the default list, delete all items, or remove individual ones.  
+TREKBAG is a simple and efficient checklist app designed to ensure you never forget anything. Add new items to the list, mark them as packed, unmark them, reset to the default list, delete all items, or remove individual ones.
 
 ## 🚀 Tech Stack  
 
